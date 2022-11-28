@@ -19,6 +19,7 @@ type Parser struct {
 }
 
 func main() {
+
 	files := os.Args[1:]
 	if len(files) > 0 {
 		for _, f := range files {
